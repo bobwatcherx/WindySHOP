@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
-	<title>Welcome Yogi muharram</title>
+	<title>Welcome Windy Setyawati</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
@@ -27,7 +27,7 @@
 	<i class="fas fa-bars" id="sidebar_btn"></i>
 </label>
 <div class="left_area">	
-<h3>UPB <span>TI.18.D6</span></h3>
+<h3>Windy<span>Shop</span></h3>
 </div>
 <div class="right_area">
 <div class="logout_btn">
@@ -40,17 +40,14 @@
 <!--sidebar start-->
 <div class="sidebar">
 <center>
-<img src="1.jpg" class="profile_image" alt="">
+<img src="win.jpg" class="profile_image" alt="">
 <br>
 <span style="font-family: sans-serif;font-size: 20px;
-color:grey">Yogi Muharam</span>
+color:grey">Windy Setyawati</span>
 </center>	
-<a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
-<a href="#"><i class="fas fa-cogs"></i><span>Dosen</span></a>
-<a href="#"><i class="fas fa-table"></i><span>Campus</span></a>
-<a href="#"><i class="fas fa-th"></i><span>Nilai</span></a>
-<a href="#"><i class="fas fa-info-circle"></i><span>Tentang</span></a>
-<a href="#"><i class="fas fa-sliders-h"></i><span>Blog</span></a>
+<a href="#"><i class="fas fa-paw"></i><span>Dashboard</span></a>
+<a href="#"><i class="fas fa-dog"></i><span>Data peliharaan</span></a>
+
 </div>
 <!--sidebar start-->
 
@@ -64,20 +61,23 @@ color:grey">Yogi Muharam</span>
 			    <div class="col s12 m5">
 			      <div class="card">
 			        <div class="card-image">
-			          <img src="bgadmin.jpg">
-			          <span class="card-title">Admin</span>
+			          <img src="dog.jpg">
+			          <span class="card-title" 
+                      style="background-color: purple;">
+                          Pet Shop
+                      </span>
 			        </div>
 			        <div class="card-content" style="color:black">
-			          <p>Dasboard admin 2020</p>
+			          <p>Dashboard Pet Shop 2020</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="#" class="btn pink lighten-2">Details</a>
+			          <a href="#" class="btn green lighten-2">Lihat Selengkapnya</a>
 			        </div>
 			      </div>
 			    </div>
 			    <div class="col m6">
 			    	<div class="card" style="color: black">
-			    		<span>Perkembangan mahasiswa</span>
+			    		<span>Data penjualan saat ini</span>
 			    	<canvas id="polar" width="400" height="300">
 					</canvas>
 			 	   </div>
@@ -195,7 +195,7 @@ var myChart = new Chart(ctx, {
 // radarchart
 	var ctx = document.getElementById('radarchart');
 var rdr = new Chart(ctx, {
-       type: 'radar',
+          type: 'pie',
     data: {
         labels: ['jan', 'feb', 'mar', 'apr', 'mei', 'juni'],
         datasets: [{
@@ -236,7 +236,7 @@ var rdr = new Chart(ctx, {
 // radarchart
 	var ctx = document.getElementById('polar');
 var rdr = new Chart(ctx, {
-          type: 'polarArea',
+           type: 'pie',
     data: {
         labels: ['jan', 'feb', 'mar', 'apr', 'mei', 'juni'],
         datasets: [{
